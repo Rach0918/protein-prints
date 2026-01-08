@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  background-color: #0f1115;
+  color: #e6e6e6;
+}
+
+.container {
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.tagline {
+  font-size: 1.1rem;
+  color: #b5b5b5;
+  margin-bottom: 3rem;
+}
+
+p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+nav a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #9fb3c8;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+Add site styling
