@@ -1,34 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Protein Prints</title>
-  <meta name="description" content="Thoughtful explorations in protein science and scientific mechanisms.">
-  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Thoughtful explorations in protein science and scientific mechanisms." />
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">Protein Prints</a>
+      <nav class="nav">
+        <a href="essays.html">Perspectives</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-  <main class="container">
-    <h1>Protein Prints</h1>
-    <p class="tagline">Thoughtful explorations in protein science and scientific mechanisms.</p>
+  <main class="wrap">
+    <section class="hero">
+      <h1>Protein Prints</h1>
+      <p class="tagline">Thoughtful explorations in protein science and scientific mechanisms.</p>
 
-    <section>
-      <p>
-        Protein Prints is a personal scientific website focused on reflective writing about
-        protein science, molecular mechanisms, and scientific discovery. The emphasis is on
-        conceptual thinking, careful interpretation of published research, and how ideas
-        develop over time.
+      <p class="lead">
+        Protein Prints is a personal scientific space for reflective writing on protein science,
+        molecular mechanisms, and scientific discovery. The focus is conceptual clarity and
+        careful reading of published research—how ideas form, evolve, and sometimes fail.
       </p>
     </section>
 
-    <nav>
-      <a href="essays.html">Perspectives</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+    <section class="cards">
+      <article class="card">
+        <h2>Perspectives</h2>
+        <p>Long-form essays on proteins, mechanisms, and interpretation of research literature.</p>
+        <a class="link" href="essays.html">Browse essays →</a>
+      </article>
+
+      <article class="card">
+        <h2>About</h2>
+        <p>A brief note on the approach behind the writing and the scope of topics covered.</p>
+        <a class="link" href="about.html">Read more →</a>
+      </article>
+
+      <article class="card">
+        <h2>Contact</h2>
+        <p>Simple, professional contact—no mailing lists, no promotions.</p>
+        <a class="link" href="contact.html">Get in touch →</a>
+      </article>
+    </section>
+
+    <section class="recent">
+      <div class="section-title">
+        <h2>Recent writing</h2>
+        <p class="muted">Add your first essay on the Perspectives page, then list it here.</p>
+      </div>
+
+      <div class="list">
+        <div class="item">
+          <div class="meta">Essay • Coming soon</div>
+          <div class="title">A note on what this site will cover</div>
+        </div>
+        <div class="item">
+          <div class="meta">Essay • Coming soon</div>
+          <div class="title">Reading proteins: mechanism, structure, and inference</div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="muted">© <span id="y"></span> Protein Prints</div>
+    </footer>
   </main>
 
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
-Add homepage
-
